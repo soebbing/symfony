@@ -65,6 +65,7 @@ class PassConfig
             new CheckDefinitionValidityPass(),
             new AutowirePass(false),
             new ServiceLocatorTagPass(),
+            new ResolveAsDecoratorAttributePass(),
             new DecoratorServicePass(),
             new ResolveTaggedIteratorArgumentPass(),
             new ResolveServiceSubscribersPass(),
